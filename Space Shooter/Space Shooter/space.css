@@ -1,0 +1,50 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: black;
+	transition-duration: 2s;
+}
+h1 {
+	color: white;
+	font-family: 'Press Start 2P', cursive;
+	text-align: center;
+}
+div {
+	margin: 0 25%;
+}
+h3 {
+	color: white;
+	font-family: 'Press Start 2P', cursive;
+	text-align: center;
+	margin: 50% auto;
+	padding: 2% 2%;
+	border: 5px solid white;
+	transition-duration: 2s;
+}
+
+.canvas {
+	border: 2px dotted black;
+}
+
+.colored {
+	background: white;
+}
+
+.level {
+	margin: 0 auto;
+	padding-bottom: 15px;
+	font-size: 25px;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
